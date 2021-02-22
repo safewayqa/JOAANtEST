@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+<listeners>
+<listener class-name="com.qa.Listeners.TestListeners"/>
+</listeners>
+  <test name="Test">
+  <parameter name="deviceName" value="Rafi"/>
+  <parameter name="udid" value="cae9aa78"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="platformVersion" value="9.0"/>
+      <classes>
+      <class name="com.qa.test.GuestUserTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

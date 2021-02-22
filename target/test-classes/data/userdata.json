@@ -1,0 +1,22 @@
+{
+ "createUserdata":{
+ 	"cfname":"mtest",
+ 	"clname":"mteam",
+ 	"cemail":"generate40@gmail.com",
+ 	"cphone":"1111111111",
+ 	"cpwd":"Bscena1234$",
+ 	"cnpwd":"Bscena1234$"
+ 	
+ 
+ },
+ "Logindata":{
+  "cusername":"testing27@gmail.com",
+  "cpassword":"Sample123$"
+ },
+ "ShippingDetails":{
+ "shipFname":"Ravi",
+  "shipLname":"Babu",
+  "shipAdress":"8714 MillWheel dr",
+  "shipZipcode":"43068"
+ }
+}
